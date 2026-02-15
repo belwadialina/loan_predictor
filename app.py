@@ -44,7 +44,6 @@ if st.button("Predict"):
     else:
         st.success("✅ Low Risk: Loan Likely to be Approved")
 
-
 import os
 
 port = int(os.environ.get("PORT", 8501))
